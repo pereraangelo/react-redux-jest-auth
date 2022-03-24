@@ -1,0 +1,230 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.heading_h3 {
+  /* font-size: 20px; */
+  letter-spacing: 1px;
+  color: #000000;
+}
+.section_padding {
+  padding: 15px 100px;
+}
+
+body {
+  background-image: url(../src/assets/images/background-why-blockchain-technology-1080p.jpg);
+  background-size: cover;
+  font-family: "Exo 2", sans-serif;
+  color: rgb(167, 167, 167);
+}
+.register {
+  height: fit-content;
+  width: 500px;
+  padding: 50px;
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  height: 100vh;
+  width: 100vw;
+}
+.header {
+  background-image: url(../src/assets/images/logo-horizontal.png);
+  background-color: rgb(12, 11, 19);
+  height: 10vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: sticky;
+  top: 0;
+}
+.logout {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  height: 10vh;
+  margin-right: 30px;
+}
+
+.logoutBtn {
+  cursor: pointer;
+}
+.logoutBtn:hover {
+  transform: scale(1.1);
+}
+
+.error {
+  color: #dc3545;
+}
+
+.showPassword {
+  display: flex;
+}
+
+.eye {
+  width: auto;
+  height: 15px;
+  margin-left: 3px;
+}
+.eyeContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background-color: rgb(12, 11, 19);
+  color: rgb(70, 70, 70);
+}
+.form-check-input {
+  border: 1px solid whitesmoke;
+}
+.form-control {
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid rgb(129, 129, 129);
+  padding: 5px 10px;
+  outline: none;
+  font-family: "Exo 2", sans-serif;
+}
+input {
+  background-color: rgb(22, 22, 22) !important;
+  color: whitesmoke !important;
+}
+
+input[name="email"] {
+  background-image: url(../src/assets/icons/mail.svg) !important;
+  background-position: left calc(0.375em + 0.1875rem) center !important;
+  background-repeat: no-repeat;
+  padding-left: 50px;
+  background-size: 20px;
+}
+
+input[name="password"] {
+  background-image: url(../src/assets/icons/lock.svg) !important;
+  background-position: left calc(0.375em + 0.1875rem) center !important;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  padding-left: 50px;
+}
+input[name="confirmPassword"] {
+  background-image: url(../src/assets/icons/lock.svg) !important;
+  background-position: left calc(0.375em + 0.1875rem) center !important;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  padding-left: 50px;
+}
+
+input[name="userName"] {
+  background-image: url(../src/assets/icons/user.svg) !important;
+  background-position: left calc(0.375em + 0.1875rem) center !important;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  padding-left: 50px;
+}
+
+.login-header {
+  text-align: center;
+  margin: 20px;
+  font-family: "Nova Flat", cursive;
+  font-size: 35px;
+  font-weight: 600;
+  color: rgb(235, 235, 235);
+  border: 0px !important;
+}
+.login {
+  height: fit-content;
+  width: 600px;
+  padding: 50px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+/* .loginBtnContainer,
+.recoverBtnContainer,
+.signupBtnContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  text-align: center;
+} */
+
+/* .recoverBtnContainer,
+.signupBtnContainer {
+  text-align: center;
+} */
+.card-body {
+  font-family: "Nova Flat", cursive;
+}
+
+.btn-primary {
+  border-color: rgb(235, 184, 0);
+}
+
+.btn-primary:hover {
+  border-color: rgb(122, 96, 1);
+}
+
+.btn-link {
+  color: #ccc;
+}
+.myBtn {
+  width: 100px;
+  height: auto;
+  color: rgb(12, 11, 19) !important;
+  background-color: rgb(255, 208, 38) !important;
+  transition: all 0.2s ease-in-out;
+  transform: skew(-20deg);
+  margin: 10px;
+}
+.myBtn:hover {
+  transform: scale(1.1) skew(-20deg);
+}
+.skew-fix {
+  display: inline-block;
+  transform: skew(20deg) !important;
+}
+
+.faq-button {
+  background-color: rgb(255, 208, 38);
+  background-image: url(../src/assets/icons/question.svg);
+  border: none;
+  color: rgb(12, 11, 19);
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 50%;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+.faq-button:hover {
+  transform: scale(1.1);
+}
+.FAQPage {
+  padding: 100px;
+  background-color: rgb(12, 11, 19);
+}
+
+.notFoundPage {
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.homePage {
+  padding: 20px;
+  margin: 20px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

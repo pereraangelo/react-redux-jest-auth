@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FAQ component Faq commponent matches the snapshot 1`] = `
+<div
+  className="FAQPage"
+>
+  <div
+    className="mb-5"
+  >
+    Go back to
+    <a
+      className=" btn-link m-3"
+      data-test="login"
+      href="/"
+      onClick={[Function]}
+    >
+       
+      Login
+       
+    </a>
+    <a
+      className=" btn-link pr-0"
+      data-test="registration"
+      href="/registration"
+      onClick={[Function]}
+    >
+       
+      Registration
+       
+    </a>
+  </div>
+  <h1>
+    FAQ 
+  </h1>
+  <div>
+    <div
+      className=" p-5"
+    >
+      <h3
+        className="font-weight-bold"
+      >
+         
+        Lorem ipsum dolor sit amet,
+      </h3>
+      <span
+        className="text-justify "
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed tempor sem. Aenean vel turpis feugiat,
+              ultricies metus at, consequat velit. Curabitur est nibh, varius in tellus nec, mattis pulvinar metus.
+              In maximus cursus lorem, nec laoreet velit eleifend vel. Ut aliquet mauris tortor, sed egestas libero interdum vitae.
+              Fusce sed commodo purus, at tempus turpis.
+      </span>
+    </div>
+    <div
+      className=" p-5"
+    >
+      <h3
+        className="font-weight-bold"
+      >
+         
+        Nunc maximus, magna at ultricies elementum
+      </h3>
+      <span
+        className="text-justify "
+      >
+        Nunc maximus, magna at ultricies elementum, risus turpis vulputate quam, vitae convallis ex tortor sed dolor.
+      </span>
+    </div>
+    <div
+      className=" p-5"
+    >
+      <h3
+        className="font-weight-bold"
+      >
+         
+        Curabitur laoreet, mauris vel blandit fringilla
+      </h3>
+      <span
+        className="text-justify "
+      >
+        Curabitur laoreet, mauris vel blandit fringilla, leo elit rhoncus nunc, ac sagittis leo elit vel lorem.
+            Fusce tempor lacus ut libero posuere viverra. Nunc velit dolor, tincidunt at varius vel, laoreet vel quam.
+            Sed dolor urna, lobortis in arcu auctor, tincidunt mattis ante. Vivamus venenatis ultricies nibh in volutpat.
+            Cras eu metus quis leo vestibulum feugiat nec sagittis lacus.Mauris vulputate arcu sed massa euismod dignissim. 
+      </span>
+    </div>
+    <div
+      className=" p-5"
+    >
+      <h3
+        className="font-weight-bold"
+      >
+         
+        What is the package version
+      </h3>
+      <span
+        className="text-justify "
+      >
+        <p>
+          current version is 1.2.1
+        </p>
+      </span>
+    </div>
+  </div>
+</div>
+`;

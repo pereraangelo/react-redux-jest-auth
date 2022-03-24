@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Notfound component Notfound commponent matches the snapshot 1`] = `
+<div
+  className="notFoundPage"
+>
+  <h1>
+    404
+  </h1>
+   
+  <p>
+    oopz.The page you are looking for doesnot exsists.
+  </p>
+  <div>
+    Go back to   
+    <a
+      className=" btn-link m-3"
+      data-test="login"
+      href="/"
+      onClick={[Function]}
+    >
+       
+      Login
+       
+    </a>
+     page
+  </div>
+</div>
+`;

@@ -1,0 +1,160 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Register Component Register component matches the snapshot 1`] = `
+<div
+  className="center"
+>
+  <div
+    className="register card"
+  >
+    <h3
+      className="card-header  login-header"
+    >
+      Register
+    </h3>
+    <div
+      className="card-body"
+    >
+      <form
+        id="registrationForm"
+      >
+        <div
+          className="form-group"
+        >
+          <input
+            className="form-control"
+            data-test="userName"
+            name="userName"
+            onChange={[Function]}
+            placeholder="User Name"
+            type="text"
+            value=""
+          />
+          <span />
+        </div>
+        <div
+          className="form-group"
+        >
+          <input
+            className="form-control"
+            data-test="email"
+            name="email"
+            onChange={[Function]}
+            placeholder="Email"
+            type="text"
+            value=""
+          />
+          <span />
+        </div>
+        <div
+          className="form-row"
+        >
+          <div
+            className="form-group col"
+          >
+            <input
+              className="form-control"
+              data-test="password"
+              name="password"
+              onChange={[Function]}
+              placeholder="Enter Password"
+              type="password"
+              value=""
+            />
+            <span />
+          </div>
+          <div
+            className="form-group col showPass"
+          >
+            <input
+              className="form-control"
+              data-test="confirmPassword"
+              name="confirmPassword"
+              onChange={[Function]}
+              placeholder="Confirm Password"
+              type="password"
+              value=""
+            />
+            <span />
+          </div>
+        </div>
+        <div
+          className="form-group form-check mt-2"
+        >
+          <input
+            className="form-check-input "
+            data-test="showPassword"
+            id="showPassword"
+            name="showPassword"
+            onChange={[Function]}
+            type="checkbox"
+            value={false}
+          />
+          <label
+            className="form-check-label"
+            htmlFor="showPassword"
+          >
+            Show password
+          </label>
+        </div>
+        <div
+          className="form-group form-check mt-2"
+        >
+          <input
+            className="form-check-input "
+            data-test="acceptTerms"
+            id="acceptTerms"
+            name="acceptTerms"
+            onChange={[Function]}
+            type="checkbox"
+            value={false}
+          />
+          <label
+            className="form-check-label"
+            htmlFor="acceptTerms"
+          >
+            Accept Terms & Conditions
+          </label>
+        </div>
+        <div
+          className="form-group"
+        >
+          <div
+            className="form-group col d-flex justify-content-center align-items-center"
+          >
+            <button
+              className="myBtn btn btn-primary"
+              data-test="register"
+              onClick={[Function]}
+              type="button"
+              value="Register"
+            >
+               
+              <span
+                className="skew-fix"
+              >
+                Register
+              </span>
+               
+            </button>
+            <a
+              className=" btn-link pr-0"
+              data-test="cancle"
+              href="/"
+              onClick={[Function]}
+            >
+              Cancle
+            </a>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  <a
+    className=" faq-button btn-link pr-0"
+    data-test="FAQ"
+    href="/FAQ"
+    onClick={[Function]}
+  />
+</div>
+`;
